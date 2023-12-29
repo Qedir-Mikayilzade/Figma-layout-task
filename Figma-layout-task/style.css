@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  width: 82%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+
+.title-1 {
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-size: 3.6vw;
+  font-style: normal;
+  font-weight: 700;
+  width: 30vw;
+  line-height: 101.385%; 
+  margin-bottom: 3rem;
+}
+.card--1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.card--1-1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.6vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 45vw;
+  flex-shrink: 0;
+}
+
+.card--1-1 p:first-child {
+  margin-bottom: 2rem;
+}
+
+.photo1 {
+  width: 21rem;
+  height: 21rem;
+  flex-shrink: 0;
+}
+.card--2 {
+  display: flex;
+  gap: 9rem;
+}
+.photo2 {
+  width: 14rem;
+  height: 13rem;
+  flex-shrink: 0;
+}
+.card--2-2 {
+  display: flex;
+  gap: 3rem;
+  width: 75%;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card--2-2-1 p:first-child {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.card--2-2-1 p:nth-child(2) {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .title-1 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
+    margin-bottom: 1rem;
+  }
+  .card--1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .card--1-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 27rem;
+  }
+  .photo1 {
+    width: 15rem;
+    height: 14rem;
+    flex-shrink: 0;
+  }
+  .card--2 {
+    display: flex;
+    gap: 5rem;
+  }
+  .photo2 {
+    width: 8.39794rem;
+    height: 7.34819rem;
+    flex-shrink: 0;
+  }
+  .card--2-2 {
+    display: flex;
+    gap: 5rem;
+  }
+  .card--2-2-1 p:first-child {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .card--2-2-1 p:nth-child(2) {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .title-1 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .card--1 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+  }
+  .card--1-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 27rem;
+  }
+  .photo1 {
+    width: 9rem;
+    height: 8rem;
+    flex-shrink: 0;
+    margin: auto;
+  }
+  .card--2 {
+    display: flex;
+    gap: 5rem;
+  }
+  .photo2 {
+    width: 6rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+  }
+  .card--2-2 {
+    display: flex;
+    gap: 5rem;
+    width: 90%;
+    flex-wrap: nowrap;
+  }
+  .card--2-2-1 p:first-child {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .card--2-2-1 p:nth-child(2) {
+    color: #000;
+    font-family: Roboto;
+    font-size: 60%;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .title-1 {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%; 
+  }
+  .card--1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card--1-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.125rem */
+    width: 80vw;
+    margin-bottom: 1rem;
+  }
+  .photo1 {
+    width: 9.14469rem;
+    height: 9.17381rem;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  .card--2 {
+    display: flex;
+    gap: 2rem;
+  }
+  .photo2 {
+    display: none;
+  }
+  .card--2-2 {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .card--2-2-1 p:first-child {
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .card--2-2-1 p:nth-child(2) {
+    color: #000;
+    font-family: Roboto;
+    font-size: 70%;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
